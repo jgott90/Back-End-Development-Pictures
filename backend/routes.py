@@ -92,7 +92,7 @@ def update_picture(id):
 # DELETE A PICTURE
 ######################################################################
 @app.route("/picture/<int:id>", methods=["DELETE"])
-def delete_piure(id):
+def delete_picture(id):
 
     for pic in data:
         if pic["id"] == id:
